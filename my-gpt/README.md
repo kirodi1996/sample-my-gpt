@@ -39,4 +39,4 @@
 - Planning for main container and secondary container
 - Fetched data for trailer video
 - Embedded the youtube video and make it auto play
-- 
+- Secondary container with movie list

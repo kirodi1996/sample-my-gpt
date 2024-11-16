@@ -8,3 +8,5 @@ export const API_OPTIONS = {
     },
 };
 export const MOVIES_API_URL = 'https://api.themoviedb.org/3/movie/now_playing?page=1';
+
+export const IMG_CDN_URL = "";
