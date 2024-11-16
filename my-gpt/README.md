@@ -32,3 +32,11 @@
 - bugfix: signup/ singin url navigation
 - unsubscribed to the onAuthStateChanged callback
 - Design browse page
+- Register TMDB api & create react an app
+- Create your own custom hooks to fetch data and update store
+- Create movie slice
+- Update store with movie data
+- Planning for main container and secondary container
+- Fetched data for trailer video
+- Embedded the youtube video and make it auto play
+- 
