@@ -40,3 +40,9 @@
 - Fetched data for trailer video
 - Embedded the youtube video and make it auto play
 - Secondary container with movie list
+
+chapter 16
+- Build gpt search page
+- Gpt search bar
+- Multilang feature
+- Integrate GPT Api 

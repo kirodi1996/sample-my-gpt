@@ -6,9 +6,13 @@ import { useEffect } from "react";
 const usePopularMovies = () => {
     const dispatch = useDispatch();
     const getPopularMovies = async () => {
-      const data = await fetch(MOVIES_API_URL, API_OPTIONS);
-      const json = await data.json();
-      dispatch(addPopularMovies(json.results));
+      try {
+        const data = await fetch(MOVIES_API_URL, API_OPTIONS);
+        const json = await data.json();
+        dispatch(addPopularMovies(json.results));
+      } catch (e) {
+
+      }
     };
   
     useEffect(() => {
